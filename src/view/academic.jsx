@@ -8,11 +8,11 @@ function academic() {
   return (
     <div className="Poppins">
       <div className="bg2 relative ">
-        <div className="absolute bottom-5 left-5 text-white text-3xl ml-24 text-left pb-6">
-          <h1 className="">
+        <div className="font-bold absolute bottom-16 left-14 font-Poppins text-left text-4xl  box-decoration-clone bg-gradient-to-r from-blue-600 to-transparent text-white px-2 backdrop-blur-sm rounded-md pl-4 border-l-4 border-white">
+          <p className="bg-gradient-to-br from-white  to-yellow-300 bg-clip-text text-transparent">
             Kehidupan Akademik
             <br /> Departemen Teknik Informatika dan Komputer PNJ
-          </h1>
+          </p>
         </div>
       </div>
 
@@ -21,7 +21,7 @@ function academic() {
           <h1>SEPUTAR AKADEMIK TIK PNJ</h1>
         </div>
         <div className="flex justify-between mt-10">
-          <div className="ml-24 text-xl mr-9">
+          <div className="ml-24 text-xl mr-20">
             <p className="text-blue-950 text-justify">
               Bila anda senang dengan ilmu komputer terapan dan bagaimana ilmu
               tersebut langsung diimplementasikan dalam dunia industri, TIK PNJ
@@ -34,7 +34,24 @@ function academic() {
               disesuaikan dengan perkembangan industri
             </p>
           </div>
-          <div className="bg-blue-950 text-white width mr-8">
+          <div className=" w-[30%] p-6 box-border ">
+            <div className="bg-slate-300 flex items-center w-full h-20 text-left p-4 rounded-xl border-l-4 border-r-4 border-blue-500 mb-4 font-bold">
+              Penerimaan Mahasiswa
+            </div>
+            <div className="bg-white flex items-center w-full h-20 text-left p-4 rounded-xl border-b-2  border-yellow-500 text-l  mb-3 shadow-md transition-all hover:shadow-black hover:underline">
+              <p>➡ SNBT</p>
+            </div>
+            <div className="bg-white flex items-center w-full h-20 text-left p-4 rounded-xl border-b-2 border-yellow-500 text-l  mb-3 shadow-md transition-all hover:shadow-black hover:underline">
+              <p>➡ SNBP</p>
+            </div>
+            <div className="bg-white flex items-center w-full h-20 text-left p-4 rounded-xl border-b-2 border-yellow-500 text-l  mb-3 shadow-md  transition-all hover:shadow-black hover:underline">
+              <p className=" ">➡ Simak PNJ</p>
+            </div>
+            <div className="bg-white flex items-center w-full h-20 text-left p-4 rounded-xl border-b-2 border-yellow-500 text-l  mb-3 shadow-md  transition-all hover:shadow-black hover:underline">
+              <p className=" ">➡ Jalur Kerja Sama</p>
+            </div>
+          </div>
+          {/* <div className="bg-blue-950 text-white width mr-8">
             <div className="font-bold">
               <h1 className="underline">Jalur penerimaan TIK PNJ</h1>
             </div>
@@ -53,14 +70,14 @@ function academic() {
                 info lebih lanjut kunjungi penerimaan.pnj.ac.id
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="ml-24 mr-96">
           <div className="text-left font-bold text-xl">
             <h1>Program Studi</h1>
           </div>
-          <div className="bg-blue-600 px-6 py-3 mt-4">
+          <div className="bg-blue-500/40 px-9 rounded-lg py-5 mt-4">
             <h1 className="text-left text-xl underline">
               SARJANA TERAPAN TEKNIK INFORMATIKA
             </h1>
@@ -73,7 +90,7 @@ function academic() {
               sektor seperti Software Engineer, Website Developer, maupun QA IT.
             </p>
           </div>
-          <div className="bg-blue-600 px-6 py-3 my-9">
+          <div className="bg-blue-500/40 px-9 rounded-lg py-5 my-9">
             <h1 className="text-left text-xl underline">
               SARJANA TERAPAN TEKNIK MULTIMEDIA JARINGAN{" "}
             </h1>
@@ -87,7 +104,7 @@ function academic() {
               Telekomunikasi, teknisi sistem komputer,dsb
             </p>
           </div>
-          <div className="bg-blue-600 px-6 py-3">
+          <div className="bg-blue-500/40 px-9 rounded-lg py-5">
             <h1 className="text-left text-xl underline">
               SARJANA TERAPAN TEKNIK MULTIMEDIA DIGITAL{" "}
             </h1>
