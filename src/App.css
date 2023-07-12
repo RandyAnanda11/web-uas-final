@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./view/Poppins-Regular.ttf);
+}
+
+.Poppins {
+  font-family: Poppins;
+}
+
+.bg {
+  background-image: url(/src/view/5.jpg);
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: url(/src/view/8.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.width {
+  width: 70rem;
+}
+
+.margin {
+  margin-left: 34.5px;
+  margin-right: 34.5px;
+}
+
+.gsg {
+  background-image: url(/src/view/GSG.png);
+  background-size: fixed;
+}
+.jahim {
+  background-image: url(/src/view/jahim.jpg);
+}
+
+.pnj {
+  background-image: url(/src/view/pnj.png);
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 0.5s infinite;
+}
+
+.csfest {
+  background-image: url(/src/view/csfest.jpg);
+}
