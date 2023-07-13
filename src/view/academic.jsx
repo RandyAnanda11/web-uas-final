@@ -210,8 +210,6 @@ function academic() {
           </div>
         </div>
       </div>
-
-     
     </div>
   );
 }
