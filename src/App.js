@@ -6,6 +6,7 @@ import About from "./view/about";
 import Contact from "./view/contact";
 import Akademik from "./view/academic";
 import _header from "./components/header";
+import _footer from "./components/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/academic" element={<Akademik />}></Route>
       </Routes>
+      <_footer />
     </div>
   );
 }
