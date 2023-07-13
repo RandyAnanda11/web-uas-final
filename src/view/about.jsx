@@ -262,7 +262,6 @@ function about() {
         </div>
         <div className="mb-40"></div>
       </div>
-      
     </div>
   );
 }
