@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-pascal-case */
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./view/home";
-import About from "./view/about";
-import Contact from "./view/contact";
-import Akademik from "./view/academic";
+import Home from "./components/home";
+import About from "./components/about";
+import Contact from "./components/contact";
+import Akademik from "./components/academic";
 import _header from "./components/header";
 import _footer from "./components/footer";
 

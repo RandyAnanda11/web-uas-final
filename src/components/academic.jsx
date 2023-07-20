@@ -1,11 +1,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react-hooks/rules-of-hooks */
 
-import foto9 from "./9.jpg";
-import foto10 from "./10.jpg";
-import foto11 from "./11.jpg";
-import foto12 from "./12.jpg";
-import foto13 from "./13.jpg";
+import foto9 from "../view/img/9.jpg";
+import foto10 from "../view/img/10.jpg";
+import foto11 from "../view/img/11.jpg";
+import foto12 from "../view/img/12.jpg";
+import foto13 from "../view/img/13.jpg";
 import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 function academic() {

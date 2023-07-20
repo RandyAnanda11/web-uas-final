@@ -3,11 +3,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useState } from "react";
 import classNames from "classnames";
-import lomba1 from "./7.jpg";
-import lomba2 from "./6.jpg";
-import msu from "./1.png";
-import jgu from "./2.png";
-import ui from "./3.png";
+import lomba1 from "../view/img/7.jpg";
+import lomba2 from "../view/img/6.jpg";
+import msu from "../view/img/1.png";
+import jgu from "../view/img/2.png";
+import ui from "../view/img/3.png";
 
 function home() {
   const texts = [

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import logo_pnj from ".././view/4.png";
-import academic from ".././view/academic";
+import logo_pnj from ".././view/img/4.png";
+import academic from "./academic";
 function header() {
   return (
     <div className="relative z-50">

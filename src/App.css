@@ -43,7 +43,7 @@
 
 @font-face {
   font-family: Poppins;
-  src: url(./view/Poppins-Regular.ttf);
+  src: url(./view/font/Poppins-Regular.ttf);
 }
 
 .Poppins {
@@ -51,12 +51,12 @@
 }
 
 .bg {
-  background-image: url(/src/view/5.jpg);
+  background-image: url(/src/view/img/5.jpg);
   background-size: cover;
 }
 
 .bg2 {
-  background-image: url(/src/view/8.jpg);
+  background-image: url(/src/view/img/8.jpg);
   background-size: cover;
   height: 100vh;
 }
@@ -71,15 +71,15 @@
 }
 
 .gsg {
-  background-image: url(/src/view/GSG.png);
+  background-image: url(/src/view/img/GSG.png);
   background-size: fixed;
 }
 .jahim {
-  background-image: url(/src/view/jahim.jpg);
+  background-image: url(/src/view/img/jahim.jpg);
 }
 
 .pnj {
-  background-image: url(/src/view/pnj.png);
+  background-image: url(/src/view/img/pnj.png);
 }
 
 @keyframes blink {
@@ -99,5 +99,5 @@
 }
 
 .csfest {
-  background-image: url(/src/view/csfest.jpg);
+  background-image: url(/src/view/img/csfest.jpg);
 }
